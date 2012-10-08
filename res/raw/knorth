@@ -1,0 +1,19 @@
+{
+    "knorth": [
+{
+"name" : "07",
+"category" : "north",
+"title" : "Park Güell",
+"address" : "7 Carrer d'Olot , 08024 Barcelona, Spain",
+"image" : "parcguell.jpg",
+"latitude" : "41.4134",
+"longitude" : "2.1531",
+"description1" : "Designed by the Catalan architect Antoni Gaudí and built in the years 1900 to 1914. It is part of the UNESCO World Heritage Site \"Works of Antoni Gaudí\".",
+"description2" : "The park was originally part of a commercially unsuccessful housing site, the idea of Count Eusebi Güell, whom the park was named after. ",
+"extra1" : "The observant visitor will notice green birds flying around amongst the pigeons and sparrows. These are monk parakeets that have became a common species with a growing population started from some individuals escaped from captivity sometime in the 70s. Like the pigeons they nest in the tall palm trees. Another bird to look out for is the hummingbird that can be seen on some days, if you look hard enough.",
+"advice" : "***",
+"link" :  "http://www.parkguell.es",
+"keywords" : ""
+}
+]
+}

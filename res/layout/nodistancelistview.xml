@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|left|right"
+    android:background="#ffffff"
+    android:gravity="center_vertical" >
+
+<LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Bottom"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+<ImageView
+            android:id="@+id/imaget"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/north_telepherique_t"/>
+
+<LinearLayout
+                android:id="@+id/images"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:isScrollContainer="true"
+                android:orientation="vertical" >
+<ImageView
+            android:id="@+id/image"
+                            android:layout_gravity="center"
+                            android:layout_margin="5px"
+                            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/north_telepherique"/>
+</LinearLayout> 
+       
+           
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:orientation="vertical" >
+
+            
+                    <!-- TextView
+                        android:id="@+id/advice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Advice"
+                        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"/ -->
+
+                    
+					<ImageView
+                            android:id="@+id/advice"
+		                            android:layout_gravity="center"
+		                            android:layout_margin="5px"
+		                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/advice_5" />
+					    
+                    <TextView
+                        android:id="@+id/description1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description1"
+                        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/description2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description2"
+                        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/extra1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="extra1"
+                        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"/>
+
+                </LinearLayout>
+                        
+            </LinearLayout>
+						<!--  spacer -->
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="  "
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+      
+  </LinearLayout>   
+ </RelativeLayout> 

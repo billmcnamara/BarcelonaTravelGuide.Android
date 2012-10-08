@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">McNamara\'s Grenoble Travel Guide</string>
+ 
+    <string name="louvre_text">Designed by the Catalan architect Antoni Gaudí and built in the years 1900 to 1914. It is part of the UNESCO World Heritage Site \"Works of Antoni Gaudí\".</string>
+    <string name="louvre_gps">41.4134,2.1531</string>
+</resources>
